@@ -1,0 +1,76 @@
+  body {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Comic Sans MS', Helvetica, sans-serif;
+background-image: url('hi.jpg');
+
+}
+h1{
+font-family: Arial,Serif,'script';
+font-weight: bold;
+font-style: italic;
+font-size: 6em;
+line-height: 1em;
+text-align: center;
+}
+.inset-text
+{
+  color: rgba(0,0,0,0.8);
+  text-shadow:5px 5px 10px red;
+}
+table {
+  margin-left:auto; 
+  margin-right:auto; 
+  width: 500px;
+  height: 500px; 
+  /*-webkit-user-select: none;*/ 
+    border: 12px solid #000;
+  border-radius:30px; 
+    background-color: #FFFF00;
+  box-shadow: 10px 10px 5px #808080;
+}
+td {
+  height: 175px;
+  width: 175px;
+  text-align: center;
+  font-size: 120px;
+  border-radius: 40px;
+  border:5px solid #000;
+  }
+#players {
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 20px 10px 10px 10px;
+  width: 520px; 
+  text-align: right;
+}
+#players > div {
+  display: inline-block;
+  padding-right: 25px;
+  color: #cccccc;
+  -webkit-transition-duration: 200ms;
+}
+.button {
+  border: 3px solid #000;
+  text-align: bottom;
+  width: 90;
+  height: 30;
+}
+.current-player {
+  color:#000 !important;
+  -webkit-transform: scale(2);
+}
+.X-marker {
+  color: #FF0000 ;
+}
+.X-marker:before {
+  content: "X";
+  color: #800080;
+}
+.O-marker {
+  color: #FF0000;
+}
+.O-marker:before {
+  content: "O";
+  color: #FF0000;
+}

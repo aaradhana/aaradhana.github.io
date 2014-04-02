@@ -1,0 +1,40 @@
+body
+{
+background-image:url('im.jpg');
+background-size: cover;
+
+}
+h1{
+font-family: Helvetica,Arial,Serif;
+font-weight: bold;
+font-style: italic;
+font-size: 5em;
+line-height: 1em;
+text-align: center;
+}
+.inset-text
+{
+color: rgba(0,0,0,0.8);
+text-shadow:5px 5px 10px blue;
+}
+h2{
+font-family: Helvetica,Arial,Serif;
+font-weight: bold;
+font-style: italic;
+font-size: 3em;
+line-height: 1em;
+text-align: center;
+}
+
+
+.inset-font
+{
+color: rgba(0,0,0,0.8);
+text-shadow:5px 5px 10px red;
+}
+a
+{
+color: rgba(0,0,0,0.8);
+text-shadow:5px 5px 10px red;
+
+}
